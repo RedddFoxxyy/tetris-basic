@@ -1,0 +1,25 @@
+This Makefile is used to compile and run a game written in C that uses the Simple DirectMedia Layer (SDL) library. Here's a breakdown of what each part does:
+
+- **Variable Definitions**:
+  - `CC := gcc`: This sets the C compiler to be used to `gcc`.
+  - `CFLAGS := sdl2-config --cflags -O3 --std=c99`: This sets the compiler flags. `sdl2-config --cflags` gets the compiler flags for SDL. `-O3` enables all optimization options. `--std=c99` sets the language standard to C99.
+  - `LDFLAGS := sdl2-config --libs -lm -lSDL2_ttf`: This sets the linker flags. `sdl2-config --libs` gets the linker flags for SDL. `-lm` links against the math library. `-lSDL2_ttf` links against the SDL2_ttf library, which is used for rendering fonts.
+  - `EXTRA_FLAGS :=`: This is an empty variable that can be set to add extra flags.
+  - `HDRS :=`: This is an empty variable that can be set to add header files.
+  - `SRCS := $(wildcard src/*.c)`: This sets `SRCS` to all `.c` files in the `src` directory.
+  - `OBJS := $(SRCS:.c=.o)`: This sets `OBJS` to the `.o` files corresponding to each `.c` file in `SRCS`.
+  - `EXEC := game`: This sets the name of the executable file to `game`.
+
+- **Recipes**:
+  - The default recipe is `all`, which depends on `compile_run`. This means that when you run `make` without specifying a target, it will run the `compile_run` recipe.
+  - The `compile_run` recipe depends on `compile`, and runs the game after it's compiled.
+  - The `compile` recipe compiles the object files into an executable.
+  - The `debug` recipe runs `make` with extra flags for debugging.
+  - The pattern rule `%.o: %.c $(HDRS) Makefile` compiles each `.c` file into a corresponding `.o` file.
+  - The `clean` recipe removes the executable and object files, and the Emscripten build directory.
+  - The `wasm_build_dir`, `wasm`, `wasm_serve`, and `publish` recipes are used for building and serving a WebAssembly version of the game using Emscripten.
+
+- **Phony Targets**:
+  - The `.PHONY: all clean compile compile_run debug wasm wasm_serve wasm_build_dir publish` line declares that all these targets are phony, meaning they don't correspond to actual files.
+
+This Makefile allows you to easily compile and run your game, compile it with debugging symbols, clean up build artifacts, and build and serve a WebAssembly version of your game.
