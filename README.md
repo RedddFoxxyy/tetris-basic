@@ -5,7 +5,7 @@ An implementation of the classic [Tetris game](https://en.wikipedia.org/wiki/Tet
 ## Installation and Compilation.
 
 ## Installation:-
-* Go to releases section and download the tetris-basic.rar file version 1.1. Extract it to a folder usinf winrar or 7zip. then go to the folder where you extracted the game and run game.exe
+* Go to releases section and download the tetris-basic.rar file version 1.1. Extract it to a folder using winrar or 7zip. Then go to the folder where you extracted the game and run game.exe
   to run the game.
 
 ## Compilation:-
