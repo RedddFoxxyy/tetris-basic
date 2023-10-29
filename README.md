@@ -18,7 +18,7 @@ An implementation of the classic [Tetris game](https://en.wikipedia.org/wiki/Tet
 ## Install mingw64 gcc compiler
 Now enter the following command:-
 ```sh
-pacman -S mingw-w64-ucrt-x86_64-gcc
+pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 ```
 
 ## Install build tools
