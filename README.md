@@ -16,7 +16,7 @@ An implementation of the classic [Tetris game](https://en.wikipedia.org/wiki/Tet
 ## Clone this repository to your system:
 
 ```sh
-git clone https://github.com/olzhasar/sdl-tetris.git
+git clone https://github.com/RedddFoxxyy/tetris-basic.git
 ```
 
 ## Compile and run the project code with make
