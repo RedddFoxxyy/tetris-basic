@@ -13,21 +13,13 @@ An implementation of the classic [Tetris game](https://en.wikipedia.org/wiki/Tet
 ## Install build tools
 * ```pacman -S git mingw-w64-x86_64-toolchain mingw64/mingw-w64-x86_64-SDL2 mingw64/mingw-w64-x86_64-SDL2_mixer mingw64/mingw-w64-x86_64-SDL2_image mingw64/mingw-w64-x86_64-SDL2_ttf mingw64/mingw-w64-x86_64-SDL2_net mingw64/mingw-w64-x86_64-cmake make``` 
 
-1. Clone this repository to your system:
+## Clone this repository to your system:
 
 ```sh
 git clone https://github.com/olzhasar/sdl-tetris.git
 ```
 
-2. [Install](https://wiki.libsdl.org/SDL2/Installation) SDL2 and SDL2_ttf on your machine
-
-- On MacOS you can use Homebrew:
-
-```sh
-brew install sdl2 sdl2_ttf
-```
-
-3. Compile and run the project code with make
+## Compile and run the project code with make
 
 ```sh
 cd tetris-basic
