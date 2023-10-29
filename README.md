@@ -4,6 +4,11 @@ An implementation of the classic [Tetris game](https://en.wikipedia.org/wiki/Tet
 
 ## Installation and Compilation.
 
+##Installation:-
+* Go to releases section and download the tetris-basic.rar file version 1.1. Extract it to a folder usinf winrar or 7zip. then go to the folder where you extracted the game and run game.exe
+  to run the game.
+
+##Compilation:-
 ## Download and install msys2 64bit
 * Download msys2 64bit from here: https://www.msys2.org/
 
@@ -18,6 +23,7 @@ An implementation of the classic [Tetris game](https://en.wikipedia.org/wiki/Tet
 ```sh
 git clone https://github.com/RedddFoxxyy/tetris-basic.git
 ```
+or download the files from this github repository and then follow the next step.
 
 ## Compile and run the project code with make
 
