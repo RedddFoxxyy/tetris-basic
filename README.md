@@ -35,6 +35,7 @@ or download the files from this github repository and then follow the next step.
 
 ## Compile and run the project code with make
 
+ Open the MYSYS2 MINGW64 Shell application from mysys2 folder in windows start menu then cd into the directory where u have extracted the source code and then run mingw32-make command. For example:-
 ```sh
 cd tetris-basic
 mingw32-make
