@@ -30,7 +30,7 @@ brew install sdl2 sdl2_ttf
 3. Compile and run the project code with make
 
 ```sh
-cd sdl-tetris
+cd tetris-basic
 make
 ```
 
