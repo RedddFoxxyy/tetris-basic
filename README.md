@@ -16,11 +16,15 @@ An implementation of the classic [Tetris game](https://en.wikipedia.org/wiki/Tet
 * Update msys2 64bit after install by running `pacman -Syu` if pacman needs to be updated you might have to close and reopen the terminal and run `pacman -Syu` again
 
 ## Install mingw64 gcc compiler
-* Now enter the following command:-
-* ```pacman -S mingw-w64-ucrt-x86_64-gcc```
+Now enter the following command:-
+```sh
+pacman -S mingw-w64-ucrt-x86_64-gcc
+```
 
 ## Install build tools
-* ```pacman -S git mingw-w64-x86_64-toolchain mingw64/mingw-w64-x86_64-SDL2 mingw64/mingw-w64-x86_64-SDL2_mixer mingw64/mingw-w64-x86_64-SDL2_image mingw64/mingw-w64-x86_64-SDL2_ttf mingw64/mingw-w64-x86_64-SDL2_net mingw64/mingw-w64-x86_64-cmake make``` 
+```sh
+pacman -S git mingw-w64-x86_64-toolchain mingw64/mingw-w64-x86_64-SDL2 mingw64/mingw-w64-x86_64-SDL2_mixer mingw64/mingw-w64-x86_64-SDL2_image mingw64/mingw-w64-x86_64-SDL2_ttf mingw64/mingw-w64-x86_64-SDL2_net mingw64/mingw-w64-x86_64-cmake make
+``` 
 
 ## Clone this repository to your system:
 
