@@ -2,7 +2,7 @@
 
 An implementation of the classic [Tetris game](https://en.wikipedia.org/wiki/Tetris) in the C programming language using the [SDL-2 library](https://www.libsdl.org/)
 
-## Installation
+## Installation and Compilation.
 
 ## Download and install msys2 64bit
 * Download msys2 64bit from here: https://www.msys2.org/
